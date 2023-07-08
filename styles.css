@@ -2,20 +2,15 @@
   width: 600px;
   height: 600px;
   display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(3, 100px);
-  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: aqua;
 }
 .inner-square {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  /* margin: 0px 10px; */
+  margin: 10px;
+  background-color: #008001;
 }
 .circle {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
+  margin: 10px;
   border-radius: 50%;
-  /* margin: 0px 10px; */
+  background-color: #0000ff;
 }
