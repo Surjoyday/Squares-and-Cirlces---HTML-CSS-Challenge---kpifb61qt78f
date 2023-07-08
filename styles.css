@@ -3,7 +3,6 @@
   height: 600px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: aqua;
 }
 .inner-square {
   margin: 10px;
